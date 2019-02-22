@@ -1,7 +1,7 @@
 # Progetto_One_Pin_Keypad_Raspberry_Pi_Python_Module
 Raspberry Pi Python Module with examples for the One Pin Keypad.
 ## How to navigate this repository:
-* **/examples** - Example sketches for the Arduino library (.ino file type).
+* **/examples** - Example sketches for the Python Module.
 
 ## Documentation:
 * [Product Page](https://www.tindie.com/products/Progetto/one-pin-keypad/)
