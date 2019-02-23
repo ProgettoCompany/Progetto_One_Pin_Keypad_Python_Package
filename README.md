@@ -1,7 +1,9 @@
-# Progetto One Pin Keypad Raspberry Pi Python_Module
+# Progetto One Pin Keypad Raspberry Pi Python Module
 **This code is in alpha. Be aware that problems may arise.** This Python Module allows the Raspberry Pi and the One Pin Keypad to be used together with the help of an ADS1115 ADC breakout board.
 ## How to navigate this repository:
 * **/examples** - Example code for the Python module.
+* **onepinkeypad.py** - The One Pin Keypad Python module.
+
 
 ## Documentation:
 * [Product Page](https://www.tindie.com/products/Progetto/one-pin-keypad/)
