@@ -2,7 +2,7 @@
 # https://www.instructables.com/id/Meet-One-Pin-Keypad/
 
 import time
-from onepinkeypad import OnePinKeypad
+import onepinkeypad.onepinkeypad as opk
 
 # Define Analog Pin:
 pin = 0
@@ -36,7 +36,7 @@ thresholds = [
 new_thresholds = [0] * 16
 
 # Create a keypad object:
-keypad = OnePinKeypad(pin)
+keypad = opk.OnePinKeypad(pin)
 
 def calibrate_button(button, array_index):
   tolerance = 500
