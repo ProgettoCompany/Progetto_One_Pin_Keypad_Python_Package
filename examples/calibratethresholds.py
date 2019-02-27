@@ -83,8 +83,8 @@ keypad.use_calibrated_thresholds(new_thresholds);
 
 print("\nCalibrated value demo beginning in 5 seconds...")
 print("Feel free to test out your calibrated values by pressing ")
-print("any button at random, it should be printed to the Serial ")
-print("Monitor. If a button fails, hit the reset button to recalibrate.")
+print("any button at random, it should be printed to the Console.")
+print("If a button fails, run this program again to recalibrate.")
 time.sleep(5)
 print("\nBegin.")
 
