@@ -7,7 +7,7 @@
 
 ## Installation via pip:
 ```
-sudo pip install Progetto_One_Pin_Keypad
+sudo pip3 install Progetto_One_Pin_Keypad
 ```
 
 ## Documentation:
