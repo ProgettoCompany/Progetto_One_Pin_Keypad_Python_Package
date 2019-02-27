@@ -8,6 +8,7 @@ setuptools.setup(
     version="0.0.2",
     author="Progetto Company",
     author_email="progettocompany@gmail.com",
+    license='MIT'
     description="Raspberry Pi compatible Python Package with examples for the One Pin Keypad.",
     long_description=long_description,
     long_description_content_type="text/markdown",
