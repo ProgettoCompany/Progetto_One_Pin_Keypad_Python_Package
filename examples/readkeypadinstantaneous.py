@@ -2,7 +2,7 @@
 # https://www.instructables.com/id/Meet-One-Pin-Keypad/
 
 import time
-from onepinkeypad import OnePinKeypad
+import onepinkeypad.onepinkeypad as opk
 
 # Define Analog Pin:
 pin = 0
@@ -11,7 +11,7 @@ pin = 0
 key_value = '\0'
 
 # Create a keypad object:
-keypad = OnePinKeypad(pin)
+keypad = opk.OnePinKeypad(pin)
 
 # Insert your calibrated array here:
 # ex: my_thresholds = [calibrated values would be here]
