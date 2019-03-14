@@ -68,16 +68,16 @@ for button_index in range(16):
     calibrate_button(buttonIDs[button_index], button_index)
     time.sleep(1)
 
-print("\nInsert the following line of code before void setup():")
+print("\nInsert the following line of code in your code before it loops:")
 print("my_thresholds = [", end = "");
 for thresholds_index in range(16):
     print (str(new_thresholds[thresholds_index]), end = ", ")
 
 print(str(new_thresholds[15]) + "]")
 
-print("\nNext, insert the following line of code inside void setup()")
-print("of your project to use the new calibrated analog thresholds:")
-print("keypad.use_calibrated_thresholds(my_thresholds);")
+print("\nNext, insert the following line of code right below the previous")
+print("one in order to use the newly calibrated analog thresholds:")
+print("keypad.use_calibrated_thresholds(my_thresholds)")
 
 keypad.use_calibrated_thresholds(new_thresholds);
 
