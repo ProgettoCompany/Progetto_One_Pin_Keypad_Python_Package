@@ -23,7 +23,7 @@ keypad = opk.OnePinKeypad(pin)
 while(True):
     # Run the read_keypad_instantaneous function to determine which button is pressed within the timeout, in milliseconds
     # Store that value in the variable keyValue
-    # If no timeout is desired, pass the NO_TIMEOUT constant as a parameter to readKeypadWithTimeout
+    # If no timeout is desired, pass the keypad.NO_TIMEOUT constant as a parameter to readKeypadWithTimeout
     key_value = keypad.read_keypad_instantaneous()
 
     # Print the key being pressed to the console
